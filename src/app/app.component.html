@@ -1,28 +1,28 @@
 
-<section class="container">
-  <div class="titulo">
-    <h1>CALCULADORA</h1>
-    <img src="../assets/angular-icon.svg" alt="">
-  </div>
-  <div class="calculadora">
-    <input [(ngModel)]="binding" type="text" class="pantalla">
-    <button class="btn" id="c" (click)="clear()">C</button>
-    <button class="btn" id="ac" (click)="clearAc()">AC</button>
-    <button class="btn" (click)="agregarNumero('/')">/</button>
-    <button class="btn" (click)="agregarNumero('*')">*</button>
-    <button class="btn" (click)="agregarNumero('7')">7</button>
-    <button class="btn" (click)="agregarNumero('8')">8</button>
-    <button class="btn" (click)="agregarNumero('9')">9</button>
-    <button class="btn" (click)="agregarNumero('-')">-</button>
-    <button class="btn" (click)="agregarNumero('4')">4</button>
-    <button class="btn" (click)="agregarNumero('5')">5</button>
-    <button class="btn" (click)="agregarNumero('6')">6</button>
-    <button class="btn" (click)="agregarNumero('+')">+</button>
-    <button class="btn" (click)="agregarNumero('1')">1</button>
-    <button class="btn" (click)="agregarNumero('2')">2</button>
-    <button class="btn" (click)="agregarNumero('3')">3</button>
-    <button class="btn" id="igual" (click)="igual()">=</button>
-    <button class="btn" id="cero" (click)="agregarNumero('0')">0</button>
-    <button class="btn" (click)="agregarNumero('.')">.</button>
-  </div>
-</section>
+  <section class="container">
+    <div class="titulo">
+      <img src="../assets/angular-icon.svg" alt="">
+      <h1>CALCULADORA</h1>
+    </div>
+    <div class="calculadora">
+      <input [(ngModel)]="binding" type="text" class="pantalla">
+      <button class="btn" id="c" (click)="clear()">C</button>
+      <button class="btn" id="ac" (click)="clearAc()">AC</button>
+      <button class="btn" (click)="agregarNumero('/')">/</button>
+      <button class="btn" (click)="agregarNumero('*')">*</button>
+      <button class="btn" (click)="agregarNumero('7')">7</button>
+      <button class="btn" (click)="agregarNumero('8')">8</button>
+      <button class="btn" (click)="agregarNumero('9')">9</button>
+      <button class="btn" (click)="agregarNumero('-')">-</button>
+      <button class="btn" (click)="agregarNumero('4')">4</button>
+      <button class="btn" (click)="agregarNumero('5')">5</button>
+      <button class="btn" (click)="agregarNumero('6')">6</button>
+      <button class="btn" (click)="agregarNumero('+')">+</button>
+      <button class="btn" (click)="agregarNumero('1')">1</button>
+      <button class="btn" (click)="agregarNumero('2')">2</button>
+      <button class="btn" (click)="agregarNumero('3')">3</button>
+      <button class="btn" id="igual" (click)="igual()">=</button>
+      <button class="btn" id="cero" (click)="agregarNumero('0')">0</button>
+      <button class="btn" (click)="agregarNumero('.')">.</button>
+    </div>
+  </section>
